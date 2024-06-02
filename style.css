@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --font-smoll: 18px;
+    --font-medium: 20px;
+    --font-big: 30px;
+    --font-large: 40px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.banner-contaner {
+    background: #1E1E1E;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 66px;
+    margin-bottom: 75px;
+}
+
+.brand {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #FD6F00;
+
+}
+
+.manu a {
+    padding: 10px 14px;
+    text-decoration: none;
+    font-family: Rubik;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24.89px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.manu .downlode-btn {
+    background: #FD6F00;
+
+}
+
+.banar {
+    /* width: 100%; */
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 0 200px;
+}
+
+.right {
+    width: 60%;
+}
+
+.left {
+    width: 0%;
+}
+
+.right h1 {
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47.4px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.right .ctg {
+    color: #FD6F00;
+}
+
+.right .bio {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+    color: #FFFFFF80;
+    margin-bottom: 25px;
+}
+
+.right .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.skill p {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.44px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    padding: 0 10px;
+
+}
+
+.banar .left img {
+    width: 300px;
+    height: 300px;
+    top: 177px;
+    left: 759px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.banner-btn-inline {
+    display: inline-block;
+}
+
+.banner-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    padding-left: 7px;
+    border-radius: 50px;
+    border: 2px solid wheat;
+    margin-bottom: 30px;
+    background: #454545ab;
+
+}
+
+.btn1 {
+    display: flex;
+    align-items: center;
+    background: #FD6F00;
+    padding: 08px 30px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+
+.btn1 a {
+    font-family: Rubik;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+
+
+}
+
+.btn2 a {
+    font-family: Rubik;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.banner-social-ion {
+    margin-bottom: 30px;
+}
+
+.banner-social-ion a {
+    margin-right: 20px;
+
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 13%;
+}
+
+.about-hedding h3 {
+    font-family: Rubik;
+    color: #ffff;
+    font-size: var(--font-big);
+}
+
+.about-hedding {
+    width: 50%
+}
+
+.about-retting {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.about-bio {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+    color: #FFFFFF80;
+}
+
+.retting-head {
+
+    font-family: Rubik;
+    color: #ffff;
+    font-size: var(--font-big);
+}
+
+.experince {
+    font-family: Rubik;
+    color: #FFFF;
+    font-size: var(--font-smoll);
+}
