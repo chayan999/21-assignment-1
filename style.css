@@ -403,7 +403,7 @@
 
 .logo-section {
     width: 1445px;
-    height: 552px;
+
     padding: 30px 0;
 }
 
@@ -446,4 +446,24 @@
 
 .logo-social-icon a {
     margin-right: 25px;
+}
+
+.footer {
+    background: #121212;
+    padding: 10px 0;
+}
+
+.footer h4 {
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 31.5px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.name {
+    color: #FD6F00;
+
 }
