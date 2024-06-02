@@ -218,3 +218,107 @@
     color: #FFFF;
     font-size: var(--font-smoll);
 }
+
+.experience-section {
+    background: linear-gradient(270.16deg, rgba(255, 178, 71, 0.132) 5.74%, rgba(255, 108, 99, 0.1) 50.64%, rgba(184, 106, 223, 0.1) 92.05%);
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 632px;
+    align-items: center;
+
+}
+
+.experience-right {
+    width: 458.67px;
+    height: 288px;
+    top: 1417px;
+    left: 193px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.experience-right p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.experience-right h3 {
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.experience-right .experience-bio {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.experience-left {
+    width: Fixed (581.33px)px;
+    height: Hug (392px)px;
+    top: 1365px;
+    left: 736px;
+    gap: 40px;
+    opacity: 0px;
+
+}
+
+.experince-left-upper-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.experience-left .experince-left-upper-head .experince-left-upper-head-one {
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.experience-left .experince-left-upper-head .experince-left-upper-head-tow {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+
+}
+
+.experience-left .experince-left-lower-head {
+    font-family: Rubik;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.experience-left .experince-left-lower-head h3 {
+    border-bottom: 1px solid #FFFFFF;
+    padding: 25px 0;
+}
